@@ -1,0 +1,640 @@
+[
+  {
+    "summary": "Creators get paid less and have zero say as platforms rewrite payout rules behind their backs.",
+    "titles": [
+      {
+        "text": "Why Platforms Keep Screwing Creators Over in Silence",
+        "angle": "expose platform greed",
+        "ctrGuess": 75
+      },
+      {
+        "text": "The Shady Shift in Creator Payments Nobody Talks About",
+        "angle": "highlight secrecy and unfairness",
+        "ctrGuess": 70
+      },
+      {
+        "text": "Creators Losing Millions as Platforms Change Payouts Without Warning",
+        "angle": "financial impact on creators",
+        "ctrGuess": 80
+      },
+      {
+        "text": "Why Your Favorite Platform Just Changed How You Get Paid, And You Had No Say",
+        "angle": "loss of creator control",
+        "ctrGuess": 78
+      },
+      {
+        "text": "The Ugly Truth About Platform Payouts: Creators Are Powerless",
+        "angle": "power imbalance",
+        "ctrGuess": 72
+      },
+      {
+        "text": "Silent Heist: How Platforms Steal Creator Revenue Under the Radar",
+        "angle": "revenue theft angle",
+        "ctrGuess": 77
+      },
+      {
+        "text": "Creators Beware: Platform Payout Rules Just Got Worse",
+        "angle": "warning creators",
+        "ctrGuess": 69
+      },
+      {
+        "text": "Platforms Change the Rules, Creators Lose the Money, Again",
+        "angle": "pattern of exploitation",
+        "ctrGuess": 74
+      }
+    ],
+    "thumbnails": [
+      {
+        "concept": "A frustrated creator looking at a shrinking paycheck on a phone screen",
+        "overlayText": "Platforms Changed Payouts AGAIN",
+        "composition": "close-up of creator's face with digital pay stubs shrinking",
+        "palette": "red, black, white",
+        "imagePrompt": "frustrated young creator holding phone showing shrinking paycheck numbers, red warning signs",
+        "imageUrl": "/assets/examples/creator-payouts-1.png"
+      },
+      {
+        "concept": "Shadowy corporate hands manipulating puppet strings over creators",
+        "overlayText": "Who Controls YOUR Pay?",
+        "composition": "hands in shadows controlling puppet strings over diverse creators",
+        "palette": "dark greys, muted blues, stark white",
+        "imagePrompt": "corporate hands in shadows pulling strings tied to creators looking powerless",
+        "imageUrl": "/assets/examples/creator-payouts-2.png"
+      },
+      {
+        "concept": "Broken dollar sign over a cracked screen phone",
+        "overlayText": "Creators Losing Millions",
+        "composition": "close-up of dollar sign breaking over smartphone screen",
+        "palette": "green, black, cracked glass texture",
+        "imagePrompt": "cracked phone screen with broken dollar sign glowing green",
+        "imageUrl": "/assets/examples/creator-payouts-3.png"
+      },
+      {
+        "concept": "Angry crowd of creators holding signs saying 'Fair Pay Now'",
+        "overlayText": "Creators Deserve a Voice",
+        "composition": "crowd of diverse creators protest with bold signage",
+        "palette": "yellow, black, white, red accents",
+        "imagePrompt": "diverse creators protesting holding signs reading 'Fair Pay Now' and 'We Deserve Control'",
+        "imageUrl": "/assets/examples/creator-payouts-4.png"
+      }
+    ],
+    "hooks": [
+      {
+        "hook": "Did you know platforms just changed how they pay creators, without telling you?",
+        "script": "You grind to create. The platform flips the pay rules without warning. You have zero say. It's time someone calls this out.",
+        "platform": "YouTube"
+      },
+      {
+        "hook": "Creators, stop letting platforms decide your pay behind your back.",
+        "script": "Every payout tweak affects your bank. Yet you get zero input. Let's break down why this stops now.",
+        "platform": "TikTok"
+      },
+      {
+        "hook": "If platforms control your paycheck, who controls your future?",
+        "script": "Creators are being treated like cash cows, not partners. Here's how they're quietly rewriting payout terms.",
+        "platform": "Instagram"
+      },
+      {
+        "hook": "Silent payout changes are the biggest scam creators don't see.",
+        "script": "Here's what platforms don't want you to know about your earnings and power.",
+        "platform": "Twitter"
+      }
+    ],
+    "talkingPoints": [
+      "Platforms unilaterally change payout terms with no creator consultation.",
+      "Creators have minimal legal or negotiation power over payment structures.",
+      "These changes often reduce creator revenues or shift risks to creators.",
+      "Transparency in payout algorithms and revenue splits is almost non-existent.",
+      "The imbalance threatens sustainable creator careers and content diversity.",
+      "Creators should push for collective bargaining or alternative monetization models."
+    ],
+    "debate": {
+      "for": [
+        "Platforms must adjust payout terms to adapt to market demands and business sustainability.",
+        "Flexible payout terms can allow platforms to invest in new creator tools and growth.",
+        "Large platforms provide massive audiences and infrastructure which justifies some control."
+      ],
+      "against": [
+        "Creators generate content and deserve a seat at the payout negotiation table.",
+        "Secretive changes undermine trust and exploit creators' reliance on the platform.",
+        "Power imbalance leads to unfair income distribution harming creative diversity."
+      ],
+      "rebuttals": [
+        {
+          "claim": "Platforms need freedom to run their business.",
+          "rebuttal": "Business freedom shouldn't come at the cost of creators getting fair pay and transparency."
+        },
+        {
+          "claim": "Creators can always leave if terms are bad.",
+          "rebuttal": "Leaving is often impossible for creators who depend on established platforms for income and audiences."
+        }
+      ],
+      "punchlines": [
+        "When platforms rewrite the pay rules solo, creators get played for fools.",
+        "No seat at the table means no cut of the pie.",
+        "Creators build the castle, platforms steal the gold."
+      ],
+      "structure": [
+        "Intro: platform changes happen quietly and unfairly.",
+        "Explain: how payouts shift and who loses.",
+        "Impact: real creator stories and hard numbers.",
+        "Challenge: why ignoring causes long-term harm.",
+        "Call to action: creators demand transparency and negotiation power."
+      ],
+      "riskFlags": [
+        "Potential legal exposure if naming specific platforms without evidence.",
+        "Audience fatigue from repeated 'platform exploitation' narratives.",
+        "Balancing critique of platforms without alienating creators who rely on them."
+      ]
+    },
+    "threads": {
+      "tweets": [
+        "Platforms keep changing creator payout terms quietly. And guess what? Creators don't get a say. #CreatorEconomy",
+        "Every tweak means less money for the hands actually making the content. This isn't just unfair, it's exploitation.",
+        "Why do platforms get to rewrite payout rules behind closed doors while creators stay silent? It's time for a change.",
+        "Transparency is a joke. Creators watch their revenue shift with zero explanation, zero input.",
+        "We build the value, they shift the rules. Where is our voice in this?",
+        "Without power to negotiate, creators are stuck in a toxic cycle of dependency and diminishing returns.",
+        "The future of creativity depends on fighting for fair pay and control over our own work.",
+        "Creators unite. Demand transparent payouts. Demand a seat at the table. Or risk losing more than money."
+      ],
+      "quoteTweets": [
+        "Critical reminder: The platform's paycheck rules aren't set in stone, but that stone ain't ours to chisel. #FairPay",
+        "Creators should control their paychecks, not be subjects to silent platform power plays."
+      ],
+      "thread": [
+        "Thread: Platforms keep quietly changing payout terms for creators. This isn't a glitch, it's a pattern.",
+        "1/ Creators pour time, talent, and sweat into content. But when the payout terms shift? We get zero say.",
+        "2/ These changes often reduce earnings and increase uncertainty for creators.",
+        "3/ Imagine building a house only to have the landlord decide rent after you move in, with no warning.",
+        "4/ Transparency around these payout rules is almost non-existent. We're left in the dark.",
+        "5/ This power imbalance stifles creators' ability to plan, grow, and sustain careers.",
+        "6/ Platforms argue they need flexibility, but flexibility should not mean exploitation.",
+        "7/ It's time creators demand transparency, fair negotiation, and control over payout rules.",
+        "8/ No more silent pay cuts. Creators deserve a seat at the table. The future of creation depends on it."
+      ]
+    },
+    "score": {
+      "clickability": 85,
+      "clarity": 90,
+      "emotion": 80,
+      "controversy": 75,
+      "novelty": 65,
+      "factCheckRisk": 15,
+      "overall": 80,
+      "whyItWorks": "Calls out a widely felt but unspoken injustice with strong emotional and financial stakes, offering creators a rallying point.",
+      "whyItMayFlop": "Could be seen as repetitive or 'old news' in creator communities, and risky if lacking specific platform evidence."
+    },
+    "id": "creator-payouts",
+    "slug": "creator-payouts",
+    "label": "Creator payouts",
+    "createdAt": "2026-08-26T04:38:27.258Z",
+    "mode": "creator",
+    "tone": "punchy",
+    "intensity": "spicy",
+    "input": "Platforms keep quietly changing creator payout terms and everyone acts like it is normal. The people making the content have the least say in how it gets paid for."
+  },
+  {
+    "summary": "Launching a token before a working product risks credibility but can fuel early innovation and community building.",
+    "titles": [
+      {
+        "text": "Should Crypto Founders Delay Tokens Until the Product Works?",
+        "angle": "Product-first vs Token-first Debate",
+        "ctrGuess": 75
+      },
+      {
+        "text": "Token Launch Before Product: Smart Bet or Dangerous Overreach?",
+        "angle": "Risk vs Reward in Early Crypto Launches",
+        "ctrGuess": 68
+      },
+      {
+        "text": "Crypto Tokens Without Products: Innovation Catalyst or Bubble Fuel?",
+        "angle": "Analyzing Market Impact",
+        "ctrGuess": 70
+      },
+      {
+        "text": "Why Some Crypto Founders Launch Tokens First and Others Don't",
+        "angle": "Differing Strategies in Crypto Startups",
+        "ctrGuess": 65
+      },
+      {
+        "text": "Tokens Before Product: How Early Launches Shape Crypto Success",
+        "angle": "Community and Funding Dynamics",
+        "ctrGuess": 72
+      },
+      {
+        "text": "The Ethics and Economics of Launching Tokens Pre-Product",
+        "angle": "Investor Trust vs Growth Potential",
+        "ctrGuess": 60
+      },
+      {
+        "text": "From Whitepaper to Working Product: When Should Tokens Go Live?",
+        "angle": "Timeline and Market Expectations",
+        "ctrGuess": 66
+      },
+      {
+        "text": "Are Token-First Launches Harming Crypto's Credibility?",
+        "angle": "Long-Term Impact on Industry Reputation",
+        "ctrGuess": 69
+      }
+    ],
+    "thumbnails": [
+      {
+        "concept": "A scale balancing a shiny token on one side and a blueprint/product prototype on the other",
+        "overlayText": "Token vs Product: Which Comes First?",
+        "composition": "Central scale with contrasting colors on either side",
+        "palette": "Gold and blue hues for token, grey and white for product",
+        "imagePrompt": "scale balancing a glowing crypto token on left and a digital product prototype on right, modern graphic style",
+        "imageUrl": "/assets/examples/launch-too-early-1.png"
+      },
+      {
+        "concept": "A roadmap with token launch marker placed before product build marker",
+        "overlayText": "Launch Tokens Early?",
+        "composition": "Pathway with clear milestones highlighted",
+        "palette": "Bright oranges and greens for energy and growth",
+        "imagePrompt": "crypto roadmap showing token launch before product development milestones, flat design",
+        "imageUrl": "/assets/examples/launch-too-early-2.png"
+      },
+      {
+        "concept": "A confused investor staring at a token floating in front of a blank screen",
+        "overlayText": "No Product Yet: Red Flag?",
+        "composition": "Investor in foreground, unclear product in background",
+        "palette": "Muted reds and greys, serious tone",
+        "imagePrompt": "investor looking confused at floating crypto token with empty digital screen behind, photorealistic style",
+        "imageUrl": "/assets/examples/launch-too-early-3.png"
+      },
+      {
+        "concept": "Crowd of supporters holding tokens with a founder presenting a product demo on screen",
+        "overlayText": "Tokens Fuel Community & Innovation",
+        "composition": "Founder at podium, engaged audience holding tokens",
+        "palette": "Warm yellows and blues, optimistic vibe",
+        "imagePrompt": "crypto founder demoing product to crowd holding tokens, dynamic event lighting",
+        "imageUrl": "/assets/examples/launch-too-early-4.png"
+      }
+    ],
+    "hooks": [
+      {
+        "hook": "Is launching tokens before a working product a recipe for disaster or the secret sauce of crypto?",
+        "script": "Today, we break down both sides of launching crypto tokens before you've built the product. Is it reckless hype or a smart move to build community and fund innovation? Let's dive in.",
+        "platform": "YouTube"
+      },
+      {
+        "hook": "Token launch timeline: Should crypto founders wait or leap?",
+        "script": "We explore why some crypto startups pump tokens first and build later, and why others swear by a product-first approach. What works best for credibility and growth?",
+        "platform": "Twitter"
+      },
+      {
+        "hook": "Crypto tokens without products: innovation or empty promises?",
+        "script": "Before you invest or launch, understand the risks and rewards when crypto projects launch tokens without a working product. We analyze the debate step-by-step.",
+        "platform": "LinkedIn"
+      },
+      {
+        "hook": "Can launching a token before product build hype or hurt your project?",
+        "script": "Founders and investors clash over early token launches. We weigh the pros and cons so you can see the real impact on trust, funding, and community growth.",
+        "platform": "Instagram"
+      }
+    ],
+    "talkingPoints": [
+      "Early token launches can generate funding and community momentum before product completion.",
+      "Launching tokens without a product risks investor skepticism and reputational damage.",
+      "Token-first strategies allow founders to test market interest and iterate based on feedback.",
+      "Waiting for a working product ensures clearer value propositions and reduces hype-driven volatility.",
+      "Market conditions and project type influence whether token-first or product-first is optimal.",
+      "Regulatory and ethical considerations impact the feasibility of launching tokens pre-product."
+    ],
+    "debate": {
+      "for": [
+        "Launching a token early provides vital capital to accelerate product development and signals confidence to the market.",
+        "It creates a community of stakeholders invested in the project's success, enabling viral growth.",
+        "Tokens can serve as incentives for early adopters and testers, integrating feedback into the product roadmap."
+      ],
+      "against": [
+        "Without a working product, tokens lack intrinsic value, risking accusations of pump-and-dump schemes.",
+        "Premature token launches can erode trust, making it harder to attract serious investors and partners later.",
+        "The hype around early tokens may lead to misallocation of resources toward marketing over product quality."
+      ],
+      "rebuttals": [
+        {
+          "claim": "Early funding from tokens is essential to build the product faster.",
+          "rebuttal": "Relying on hype instead of proven value can backfire and delay product delivery if expectations aren't managed."
+        },
+        {
+          "claim": "Tokens engage a community that propels development through feedback and advocacy.",
+          "rebuttal": "Communities can become disillusioned if the product doesn't materialize, damaging long-term momentum."
+        },
+        {
+          "claim": "Tokens without products democratize access and share project upside early.",
+          "rebuttal": "This approach risks legal scrutiny and investor losses if the project fails to deliver tangible utility."
+        }
+      ],
+      "punchlines": [
+        "Tokens before product: a rocket launch without a flight plan.",
+        "Building hype without a product is gambling with credibility.",
+        "In crypto, value isn't just a promise, it needs a product to back it up."
+      ],
+      "structure": [
+        "Introduction: Present the debate question and stakes.",
+        "Argument For: Benefits of launching token first with examples.",
+        "Argument Against: Risks and downsides with real-world cases.",
+        "Rebuttals: Address common counterpoints from both sides.",
+        "Conclusion: Balanced summary urging careful strategy choice."
+      ],
+      "riskFlags": [
+        "Potential to encourage speculative bubbles without real innovation.",
+        "Investor protection concerns due to unbacked token offerings.",
+        "Reputational damage for the wider industry if early token hype collapses."
+      ]
+    },
+    "threads": {
+      "tweets": [
+        "Should crypto founders launch tokens before their product is ready? Let's break down the risks and rewards. 👇",
+        "Pro: Early token launches raise capital fast and build engaged communities who can help shape the product.",
+        "Con: Tokens without products lack inherent value, often attracting hype over substance and risking trust.",
+        "Community incentives are powerful, but disillusionment sets in if the product fails to deliver.",
+        "Timing matters: market conditions and project specifics should guide when tokens drop.",
+        "Reputational risk looms large, premature tokens could hurt both founders and the industry.",
+        "The best approach? Consider legal, ethical, and market factors before rushing a token launch.",
+        "In crypto, tokens need products to justify their worth. Hype alone won't keep the lights on."
+      ],
+      "quoteTweets": [
+        "Launching tokens too early is like selling tickets for a movie that hasn't been made yet. Entertaining only if delivered. #CryptoDebate",
+        "Tokens first, product later? That strategy can ignite funding but also burn trust if mishandled. Timing is everything."
+      ],
+      "thread": [
+        "1/ Should crypto founders launch tokens before having a working product? It's a heated debate with valid points on both sides.",
+        "2/ Proponents say early token launches fuel funding and build a passionate community that can actively shape the project.",
+        "3/ Tokens incentivize early adopters and align user interests with the project's roadmap, driving iterative development.",
+        "4/ Critics argue that tokens without products are speculative bets, lacking intrinsic value and risking investor backlash.",
+        "5/ Without a working product, projects risk hype-driven price bubbles and potential legal challenges for misleading investors.",
+        "6/ The timing of a token launch should weigh market conditions, project maturity, and regulatory landscape carefully.",
+        "7/ Ultimately, transparency and delivering real utility are what sustain a token's value beyond initial excitement.",
+        "8/ Founders must balance between seizing early momentum and proving tangible progress to maintain credibility in crypto."
+      ]
+    },
+    "score": {
+      "clickability": 78,
+      "clarity": 85,
+      "emotion": 60,
+      "controversy": 70,
+      "novelty": 65,
+      "factCheckRisk": 30,
+      "overall": 72,
+      "whyItWorks": "Directly tackles a hot-button topic with balanced nuance, appealing to investors and founders alike.",
+      "whyItMayFlop": "Might be too balanced for audiences expecting strong takes or simplified narratives."
+    },
+    "id": "launch-too-early",
+    "slug": "launch-too-early",
+    "label": "Launching too early",
+    "createdAt": "2026-08-26T04:38:54.904Z",
+    "mode": "debate",
+    "tone": "analytical",
+    "intensity": "balanced",
+    "input": "Should crypto founders stop launching a token before they have a working product? Argue both sides properly."
+  },
+  {
+    "summary": "HYPECAT flips the script on journalism funding by empowering independent reporters to back each other's work with no insider privileges and playful branding.",
+    "titles": [
+      {
+        "text": "How HYPECAT Is Democratizing Investigative Journalism Funding",
+        "angle": "community tokens meet journalism",
+        "ctrGuess": 7
+      },
+      {
+        "text": "No Presale, No Insider Deals: The HYPECAT Token Promise",
+        "angle": "transparency and fairness",
+        "ctrGuess": 6
+      },
+      {
+        "text": "Inside HYPECAT: The Token Built by Journalists for Journalists",
+        "angle": "founder perspective and community",
+        "ctrGuess": 7
+      },
+      {
+        "text": "HYPECAT's Playful Branding Masks Serious Substance in Journalism",
+        "angle": "branding vs impact",
+        "ctrGuess": 5
+      },
+      {
+        "text": "Funding Truth: Why HYPECAT Could Save Independent Investigations",
+        "angle": "social impact angle",
+        "ctrGuess": 6
+      },
+      {
+        "text": "How HYPECAT's No-Insider Token Model Sets a New Standard",
+        "angle": "tokenomics and ethics",
+        "ctrGuess": 6
+      },
+      {
+        "text": "Peer-Funded Investigations: The Future with HYPECAT Token",
+        "angle": "innovation in crowdfunding",
+        "ctrGuess": 6
+      },
+      {
+        "text": "Meet HYPECAT, The Crypto Community Backing Hardcore Journalism",
+        "angle": "community and crypto culture",
+        "ctrGuess": 7
+      }
+    ],
+    "thumbnails": [
+      {
+        "concept": "cute cat mascot with a journalist's notebook",
+        "overlayText": "Fund Journalism Fairly",
+        "composition": "centered mascot, bold text above",
+        "palette": "vibrant purple and orange",
+        "imagePrompt": "playful cartoon cat holding a notepad and pen, standing in front of a cityscape with crypto symbols floating",
+        "imageUrl": "/assets/examples/hypecat-1.png"
+      },
+      {
+        "concept": "journalists shaking hands with crypto tokens floating",
+        "overlayText": "No Presale, No Insiders",
+        "composition": "split screen showing handshake on left, tokens on right",
+        "palette": "blue and white with golden token accents",
+        "imagePrompt": "two people shaking hands, one with a pen, blockchain tokens floating around, clean modern style",
+        "imageUrl": "/assets/examples/hypecat-2.png"
+      },
+      {
+        "concept": "stacked tokens forming a pyramid with spotlight on base",
+        "overlayText": "Built On Trust",
+        "composition": "bottom-up pyramid with glowing token at foundation",
+        "palette": "dark background with neon green highlights",
+        "imagePrompt": "stylized crypto coins stacked like a pyramid glowing from base, minimalist dark theme",
+        "imageUrl": "/assets/examples/hypecat-3.png"
+      },
+      {
+        "concept": "journalist in coffee shop working on laptop, cat mascot watching",
+        "overlayText": "Your Investigation, Funded",
+        "composition": "foreground cat mascot, midground journalist focused on laptop",
+        "palette": "warm earth tones with pops of bright blue",
+        "imagePrompt": "cozy coffee shop scene with a playful cat mascot sitting next to a focused journalist typing on laptop, soft lighting",
+        "imageUrl": "/assets/examples/hypecat-4.png"
+      }
+    ],
+    "hooks": [
+      {
+        "hook": "What if journalists funded each other instead of chasing shady grants?",
+        "script": "HYPECAT is a community token designed for independent journalists to support one another, without presales or insider allocations messing with the game. Let's see how this changes the funding landscape.",
+        "platform": "Twitter"
+      },
+      {
+        "hook": "Why is no presale and no insider token allocation a game changer for journalism funding?",
+        "script": "Unlike most crypto projects, HYPECAT keeps fairness at its core. Journalists themselves control the token economy, making sure funding flows to investigations that truly matter.",
+        "platform": "YouTube"
+      },
+      {
+        "hook": "Playful branding, serious mission: meet HYPECAT.",
+        "script": "At first glance, HYPECAT looks like a fun community token with a cat mascot. But dig deeper and it's a radical approach to funding independent investigations through peer support.",
+        "platform": "Instagram"
+      },
+      {
+        "hook": "How can a token without insiders make journalism stronger?",
+        "script": "HYPECAT eliminates insider allocations. No whales, no pre-mine, just pure community. This ensures transparency and fairness in how investigative journalism is funded.",
+        "platform": "LinkedIn"
+      }
+    ],
+    "talkingPoints": [
+      "HYPECAT's no presale and zero insider allocation prevents centralized control and promotes equitable token distribution among journalists.",
+      "The token is specifically designed for independent journalists to fund each other's investigations, fostering a tight-knit, self-sustaining community.",
+      "Playful branding with a cat mascot lowers entry barriers and builds approachability while maintaining credible substance in mission.",
+      "Community governance ensures funding decisions reflect collective priorities, reducing reliance on traditional media gatekeepers or advertisers.",
+      "HYPECAT could disrupt traditional journalism funding models trapped by conflicts of interest or slow institutional processes.",
+      "Challenges include ensuring sufficient liquidity and adoption within both crypto and journalism communities to maintain token value and trust."
+    ],
+    "debate": {
+      "for": [
+        "Decentralizing journalism funding empowers reporters to pursue hard-hitting stories outside corporate agendas.",
+        "No presale or insider allocation makes the token distribution fair and transparent, attracting genuine community members."
+      ],
+      "against": [
+        "Token liquidity might suffer without presale funds to seed initial markets.",
+        "Journalists may lack crypto experience needed to manage token governance effectively."
+      ],
+      "rebuttals": [
+        {
+          "claim": "No presale limits initial liquidity and adoption momentum.",
+          "rebuttal": "Organic community growth prioritizes trust and long-term sustainability over quick speculative gains."
+        },
+        {
+          "claim": "Journalists are not crypto experts, so governance may falter.",
+          "rebuttal": "Partnerships with crypto educators and transparent governance tools can bridge the knowledge gap."
+        }
+      ],
+      "punchlines": [
+        "HYPECAT puts the power of investigation back in the hands of those who need it most: journalists themselves."
+      ],
+      "structure": [
+        "Introduction to journalism funding challenges",
+        "HYPECAT's unique no-presale, no insider distribution model",
+        "Community-driven funding benefits and pitfalls",
+        "Branding as access point and credibility builder",
+        "Future outlook and potential risks",
+        "Call to action for both journalists and crypto enthusiasts"
+      ],
+      "riskFlags": [
+        "Potential low token liquidity impacting funding efficiency",
+        "Slow community adoption outside core journalism circles",
+        "Regulatory scrutiny given token's role in media funding"
+      ]
+    },
+    "threads": {
+      "tweets": [
+        "Journalism funding is broken. HYPECAT fixes that by letting journalists fund each other using a community token with no insider perks.",
+        "No presale. No insider allocation. Just real reporters backing real investigations. That's the HYPECAT way.",
+        "Why a cat mascot? Because playful branding invites broader participation without watering down serious impact.",
+        "Community governance means journalists decide which stories get funded, cutting out middlemen and biases.",
+        "Challenges? Sure. Token liquidity and adoption need time. But the mission is worth the patience.",
+        "HYPECAT could be the blueprint for decentralized media funding globally, combining crypto transparency with journalistic integrity.",
+        "If you're an independent journalist tired of begging for grants, HYPECAT might just be your new best friend.",
+        "The future of investigative journalism is peer-funded and community-driven. Welcome to HYPECAT."
+      ],
+      "quoteTweets": [
+        "This token design flips the centralization script. Journalists backing journalists is a powerful paradigm shift.",
+        "No presale? No insiders? That's how you build trust in a crypto project for real-world impact."
+      ],
+      "thread": [
+        "1/ Journalism is underfunded and too often controlled by a few gatekeepers. Enter HYPECAT, a community token where independent journalists fund each other.",
+        "2/ HYPECAT doesn't do presales or insider allocations. That means no whales controlling the narrative or funding flow.",
+        "3/ The playful cat branding is more than cute. It's accessibility for a community usually intimidated by crypto jargon.",
+        "4/ Funded investigations come directly from a collective of reporters, ensuring transparency and aligned incentives.",
+        "5/ Challenges remain: building liquidity without initial insiders means relying on genuine community growth.",
+        "6/ Governance tools help journalists manage funds and vote on which investigations get support.",
+        "7/ This model could disrupt traditional media funding trapped by advertiser influence and slow institutional grants.",
+        "8/ For journalists tired of begging and for crypto communities wanting impact, HYPECAT offers a fresh path forward."
+      ]
+    },
+    "crypto": {
+      "names": [
+        "HYPECAT",
+        "HYPE CAT Token",
+        "HYPECAT Community Token",
+        "HYPECAT Investigative Token"
+      ],
+      "tickers": [
+        "HYPE",
+        "CAT",
+        "HYPC",
+        "HPC",
+        "HCT"
+      ],
+      "taglines": [
+        "Fueling Truth with Community Power",
+        "Journalism Funded by Journalists",
+        "Playful Token. Serious Investigations.",
+        "No Whales. No Presale. Just Truth.",
+        "Peer-Funded Investigations on the Blockchain"
+      ],
+      "heroHeadline": "HYPECAT: The Community Token Powering Independent Investigations",
+      "launchTweets": [
+        "Launching HYPECAT, the only token designed for journalists funding journalists. No presale. No insiders. Just honest support.",
+        "Ready to back investigations that matter? HYPECAT lets independent reporters support each other transparently and fairly.",
+        "Join HYPECAT today and be part of a community where every token holder is a champion of truth.",
+        "Say goodbye to gatekeepers funding your investigation. HYPECAT puts the power back in journalists' hands.",
+        "The future of journalism funding is here, and it's playful, fair, and community-driven. Welcome to HYPECAT."
+      ],
+      "founderBios": [
+        "Alex Rivera, a veteran investigative journalist with 15 years exposing corruption, turned crypto founder to empower peers.",
+        "Maya Chen, blockchain developer and crypto advocate passionate about decentralizing media and supporting independent voices."
+      ],
+      "memeIdeas": [
+        "Cat in journalist glasses typing furiously with caption: 'HYPECAT funding my investigation, no gatekeepers needed.'",
+        "Split image: traditional media begging investors vs HYPECAT journalists tossing tokens to each other.",
+        "Cat paw smacking away 'insider allocations' text like a pesky fly, captioned 'Not in my newsroom.'",
+        "Playful cat surrounded by glowing tokens captioned: 'Funding truth one investigation at a time.'"
+      ],
+      "landingCopy": [
+        {
+          "heading": "Funding Independent Journalism Without Middlemen",
+          "body": "HYPECAT is a community token created by and for investigative journalists. We believe truth deserves direct support, not gatekeepers. Our no presale and no insider allocation policy ensures fairness and transparency from day one."
+        },
+        {
+          "heading": "Join a Community Where Every Voice Counts",
+          "body": "Through community governance, token holders decide which investigations receive funding. This decentralized approach empowers journalists to pursue stories that matter without external influence."
+        }
+      ],
+      "ctas": [
+        "Join the HYPECAT Community",
+        "Support Independent Investigations",
+        "Get Your HYPECAT Tokens",
+        "Participate in Governance",
+        "Follow Us for Updates"
+      ]
+    },
+    "score": {
+      "clickability": 7,
+      "clarity": 8,
+      "emotion": 6,
+      "controversy": 4,
+      "novelty": 8,
+      "factCheckRisk": 2,
+      "overall": 7,
+      "whyItWorks": "The angle of a fair, no-presale, no-insider token specifically designed for journalists hits a clear niche and addresses a real pain point with crypto transparency.",
+      "whyItMayFlop": "Niche target audience with possible onboarding challenges and liquidity constraints; success depends heavily on community adoption and token utility within journalism circles."
+    },
+    "id": "hypecat",
+    "slug": "hypecat",
+    "label": "HYPECAT token launch",
+    "createdAt": "2026-08-26T04:39:27.161Z",
+    "mode": "crypto",
+    "tone": "founder",
+    "intensity": "balanced",
+    "input": "A community token called HYPECAT for independent journalists who fund each other's investigations. Playful branding, credible substance, no presale and no insider allocation."
+  }
+]

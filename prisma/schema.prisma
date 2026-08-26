@@ -1,0 +1,170 @@
+// DINOL data model.
+// Guests never touch this: their packs live in browser local storage until they
+// sign in, at which point the client migrates them into Generation rows.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String   @id @default(cuid())
+  clerkId   String   @unique
+  email     String   @unique
+  name      String?
+  imageUrl  String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  subscription Subscription?
+  generations  Generation[]
+  savedPacks   SavedPack[]
+  shares       PublicShare[]
+  usage        UsageRecord[]
+
+  @@index([clerkId])
+}
+
+enum PlanTier {
+  FREE
+  STARTER
+  PRO
+  PREMIUM
+}
+
+enum SubStatus {
+  ACTIVE
+  TRIALING
+  PAST_DUE
+  CANCELED
+}
+
+model Subscription {
+  id                   String    @id @default(cuid())
+  userId               String    @unique
+  user                 User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  tier                 PlanTier  @default(FREE)
+  status               SubStatus @default(ACTIVE)
+  stripeCustomerId     String?   @unique
+  stripeSubscriptionId String?   @unique
+  stripePriceId        String?
+  currentPeriodEnd     DateTime?
+  cancelAtPeriodEnd    Boolean   @default(false)
+  createdAt            DateTime  @default(now())
+  updatedAt            DateTime  @updatedAt
+}
+
+enum GenMode {
+  CREATOR
+  DEBATE
+  CRYPTO
+}
+
+model Generation {
+  id        String   @id @default(cuid())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  guestKey  String?
+  mode      GenMode
+  tone      String
+  intensity String
+  audience  String?
+  input     String   @db.Text
+  summary   String   @db.Text
+  // Full ContentPack JSON. Denormalized on purpose: packs are read whole.
+  payload   Json
+  overall   Int      @default(0)
+  model     String?
+  tokensIn  Int?
+  tokensOut Int?
+  createdAt DateTime @default(now())
+
+  items  GeneratedItem[]
+  saved  SavedPack[]
+  shares PublicShare[]
+
+  @@index([userId, createdAt])
+  @@index([guestKey])
+}
+
+enum ItemKind {
+  TITLE
+  THUMBNAIL
+  HOOK
+  TALKING_POINT
+  REBUTTAL
+  PUNCHLINE
+  TWEET
+  THREAD_ITEM
+  CRYPTO_ASSET
+}
+
+// Individual copyable lines. Lets us track which items get copied and favorited,
+// which is the signal we use to tune prompts.
+model GeneratedItem {
+  id           String     @id @default(cuid())
+  generationId String
+  generation   Generation @relation(fields: [generationId], references: [id], onDelete: Cascade)
+  kind         ItemKind
+  content      String     @db.Text
+  meta         Json?
+  position     Int        @default(0)
+  favorited    Boolean    @default(false)
+  copyCount    Int        @default(0)
+  imageUrl     String?
+  createdAt    DateTime   @default(now())
+
+  @@index([generationId, kind])
+}
+
+model SavedPack {
+  id           String     @id @default(cuid())
+  userId       String
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  generationId String
+  generation   Generation @relation(fields: [generationId], references: [id], onDelete: Cascade)
+  title        String?
+  notes        String?    @db.Text
+  createdAt    DateTime   @default(now())
+
+  @@unique([userId, generationId])
+  @@index([userId, createdAt])
+}
+
+model PublicShare {
+  id           String     @id @default(cuid())
+  slug         String     @unique
+  userId       String?
+  user         User?      @relation(fields: [userId], references: [id], onDelete: SetNull)
+  generationId String
+  generation   Generation @relation(fields: [generationId], references: [id], onDelete: Cascade)
+  views        Int        @default(0)
+  isPublic     Boolean    @default(true)
+  createdAt    DateTime   @default(now())
+
+  @@index([slug])
+}
+
+enum UsageKind {
+  GENERATION
+  IMAGE_RENDER
+  EXPORT
+}
+
+model UsageRecord {
+  id        String    @id @default(cuid())
+  userId    String?
+  user      User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  guestKey  String?
+  kind      UsageKind
+  credits   Int       @default(1)
+  period    String // YYYY-MM, so a month's usage is one indexed scan
+  createdAt DateTime  @default(now())
+
+  @@index([userId, period])
+  @@index([guestKey, period])
+}

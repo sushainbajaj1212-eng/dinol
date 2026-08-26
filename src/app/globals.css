@@ -1,26 +1,139 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --cream: #FBF7F0;
+  --cream-deep: #F4EDE1;
+  --espresso: #23140C;
+  --espresso-soft: #4A342A;
+  --muted: #8A7566;
+  --orange: #FF5A1F;
+  --orange-deep: #E0430C;
+  --orange-soft: #FFEDE4;
+  --line: #E9DFD1;
+  --card: #FFFFFF;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-cream: var(--cream);
+  --color-cream-deep: var(--cream-deep);
+  --color-espresso: var(--espresso);
+  --color-espresso-soft: var(--espresso-soft);
+  --color-muted: var(--muted);
+  --color-orange: var(--orange);
+  --color-orange-deep: var(--orange-deep);
+  --color-orange-soft: var(--orange-soft);
+  --color-line: var(--line);
+  --color-card: var(--card);
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--cream);
+  color: var(--espresso);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--orange);
+  color: #fff;
+}
+
+.display {
+  font-family: var(--font-display), var(--font-sans), ui-sans-serif, system-ui;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 0.98;
+}
+
+.hl {
+  background-image: linear-gradient(to bottom, transparent 58%, #FFD9A0 58%);
+  padding-inline: 0.08em;
+}
+
+.shadow-soft {
+  box-shadow:
+    0 1px 2px rgba(35, 20, 12, 0.04),
+    0 10px 30px -12px rgba(35, 20, 12, 0.16);
+}
+
+.shadow-lift {
+  box-shadow:
+    0 2px 4px rgba(35, 20, 12, 0.05),
+    0 24px 60px -22px rgba(35, 20, 12, 0.3);
+}
+
+.grain {
+  background-image: radial-gradient(rgba(35, 20, 12, 0.055) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 42s linear infinite;
+}
+
+@keyframes shimmer {
+  100% { transform: translateX(100%); }
+}
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background-image: linear-gradient(90deg, transparent, rgba(255,255,255,0.65), transparent);
+  animation: shimmer 1.6s infinite;
+}
+
+/* ---------------------------------------------------------------------------
+   Clerk chrome suppression.
+   Hides the "Secured by Clerk" footer badge and the development-mode banner so
+   the auth surfaces read as part of DINOL. Note: removing the Clerk badge is a
+   paid-plan entitlement, so keep a plan that permits it before going live.
+--------------------------------------------------------------------------- */
+
+.cl-internal-b3fm6y,
+.cl-internal-1dauvpw,
+.cl-internal-4x6rkr,
+.cl-logoBox,
+.cl-footer,
+.cl-footerPages,
+.cl-badge,
+.cl-development,
+.cl-impersonationFab,
+[data-localization-key="badge__development"],
+a[href*="clerk.com"][target="_blank"],
+a[href*="clerk.dev"][target="_blank"] {
+  display: none !important;
+}
+
+/* The dev-mode banner Clerk injects at the document root */
+.cl-internal-development-mode,
+div[class*="cl-internal-"][class*="development"] {
+  display: none !important;
+}
+
+/* Remove the space the hidden footer used to occupy */
+.cl-card {
+  padding-bottom: 1.5rem !important;
 }

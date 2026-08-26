@@ -1,26 +1,45 @@
 {
-  "name": "dinol-tmp",
+  "name": "dinol",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "seed:examples": "node --env-file=.env.local scripts/seed-examples.mjs",
+    "gen:assets": "node --env-file=.env.local scripts/generate-assets.mjs",
+    "db:push": "prisma db push",
+    "db:studio": "prisma studio"
   },
   "dependencies": {
+    "@clerk/nextjs": "^7.8.2",
+    "@prisma/client": "^7.10.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^13.1.1",
+    "lucide-react": "^1.34.0",
     "next": "16.3.3",
+    "openai": "^7.5.0",
+    "qrcode": "^1.5.4",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "stripe": "^22.5.0",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/qrcode": "^1.5.6",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.3",
+    "playwright": "^1.62.1",
+    "prisma": "^8.0.0-rc.10",
+    "sharp": "^0.35.3",
     "tailwindcss": "^4",
     "typescript": "^5"
-  }
+  },
+  "description": "AI hot take studio for creators and crypto founders"
 }
