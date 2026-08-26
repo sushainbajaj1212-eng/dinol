@@ -46,3 +46,6 @@ next-env.d.ts
 # Deploy keys - never commit
 dinol_deploy_key
 dinol_deploy_key.pub
+
+.vercel_token
+.vercel

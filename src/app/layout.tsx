@@ -58,6 +58,10 @@ export const metadata: Metadata = {
     apple: "/assets/icon.svg",
   },
   robots: { index: true, follow: true },
+  // Ownership verification for the Orynth listing.
+  other: {
+    "ory-verify": "orynth-5e588d008ad44a8d80eb94b29420fea2",
+  },
 };
 
 export default function RootLayout({
