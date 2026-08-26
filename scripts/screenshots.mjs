@@ -31,11 +31,14 @@ const SHOTS = [
   },
   {
     name: "screenshot-2",
-    url: "/app?template=podcast-rant",
-    caption: "Pick a mode, a tone, and how hard to push it.",
+    url: "/",
+    caption: "Real output, not a mockup. Read the whole pack.",
     kicker: "The studio",
     dark: false,
     full: false,
+    action: async (page) => {
+      await page.evaluate(() => window.scrollTo(0, 1050));
+    },
   },
   {
     name: "screenshot-3",
